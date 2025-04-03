@@ -1,5 +1,3 @@
-# Motsu
-
 # Motsu - Subtitle Translator Chrome Extension
 
 Motsu is a Chrome extension that allows users to translate and save subtitles from Netflix and YouTube in real-time. The extension offers an intuitive interface to select a native language and a language to learn, helping users improve their language skills while watching videos.
