@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Motsu",
+    "version": "1.0",
+    "description": "Translate and save subtitles from Netflix and YouTube.",
+    "permissions": ["activeTab","debugger", "storage", "scripting", "tabs", "webNavigation", "webRequest"],
+    "host_permissions": [ "https://*.netflix.com/*", "https://*.youtube.com/*", "*://*.nflxvideo.net/*" ],
+    "background": {
+      "service_worker": "background.js",
+      "type": "module"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "Motsu-TransparentGradient.png",
+        "48": "Motsu-TransparentGradient.png",
+        "128": "Motsu-TransparentGradient.png"
+      }
+    },
+    "content_scripts": [
+      {
+          "matches": ["*://*.netflix.com/*"],
+          "js": ["content.js"]
+      }
+  ]
+  }
