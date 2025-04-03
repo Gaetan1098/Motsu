@@ -7,7 +7,7 @@ import { signInAnonymously } from "https://www.gstatic.com/firebasejs/9.17.1/fir
 
 // Your Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCfv2MXVjc4PqZi5KOyIE52wBFbNnCnwys",
+  apiKey: "###############################",
   authDomain: "motsu-6c734.firebaseapp.com",
   projectId: "motsu-6c734",
   storageBucket: "motsu-6c734.firebasestorage.app",
